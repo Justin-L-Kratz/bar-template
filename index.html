@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MyRestaurant</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Fixed collapsable navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="index.html">My Restaurant</a>
+	  </div>
+	  <div class="collapse navbar-collapse" id="nav">
+	    <ul class="nav navbar-nav">
+		  <li data-toggle="collapse" data-target="#nav"><a href="#home">Home</a></li>
+		  <li data-toggle="collapse" data-target="#nav"><a href="#about">About</a></li>
+		  <li data-toggle="collapse" data-target="#nav"><a href="#menu">Menu</a></li>
+		  <li data-toggle="collapse" data-target="#nav"><a href="#contact">Contact</a></li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+  <div class="container-fluid" style="margin-top:51px">
+    <!-- Welcome Banner -->
+    <div class="bgimg1" id="home">
+	  <div class="caption">
+	    <span class="border">My Restaurant</span>
+	  </div>
+	</div>
+	
+	<!-- About Section -->
+	<div class="about" id="about">
+	  <h2>Welcome to My Restaurant</h2>
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper congue nisi, 
+		vel pharetra quam blandit ut. In iaculis, lectus ullamcorper porttitor imperdiet, 
+		dui felis luctus sem, at pharetra dolor nisi non nulla. Pellentesque porttitor ligula mi, 
+		sit amet interdum libero volutpat vitae. Mauris non enim id ligula condimentum eleifend. 
+		Pellentesque in velit ex. Donec eu ultrices massa. Praesent finibus posuere felis, eu 
+		tincidunt elit iaculis rhoncus. Integer fermentum, felis aliquam tincidunt fermentum, 
+		mauris felis posuere sem, eu tristique sapien eros eu ligula. Sed vel nunc a urna hendrerit 
+		posuere.
+	  </p>
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper congue nisi, 
+		vel pharetra quam blandit ut. In iaculis, lectus ullamcorper porttitor imperdiet, 
+		dui felis luctus sem, at pharetra dolor nisi non nulla. Pellentesque porttitor ligula mi, 
+		sit amet interdum libero volutpat vitae. Mauris non enim id ligula condimentum eleifend. 
+		Pellentesque in velit ex. Donec eu ultrices massa. Praesent finibus posuere felis, eu 
+		tincidunt elit iaculis rhoncus. Integer fermentum, felis aliquam tincidunt fermentum, 
+		mauris felis posuere sem, eu tristique sapien eros eu ligula. Sed vel nunc a urna hendrerit 
+		posuere.
+	  </p>
+	</div>
+	
+	<!-- Menu Banner -->
+	<div class="bgimg2" id="menu">
+	  <div class="caption">
+	    <span class="border">Menu</span>
+	  </div>
+	</div>
+	
+	<!-- Menu Highlights -->
+	<div class="menu row">
+	  <h2>Signature Dishes</h2>
+	  
+	  <div class="col-md-4">
+	    <h3>
+		  Dish 1<br />
+		  <small>
+		    <em>$19.95</em>
+		  </small>
+		</h3>
+		<p>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper congue nisi, 
+		  vel pharetra quam blandit ut. In iaculis, lectus ullamcorper porttitor imperdiet.
+		</p>
+	  </div>
+	  <div class="col-md-4">
+	    <h3>
+		  Dish 2<br />
+		  <small>
+		    <em>$17.95</em>
+		  </small>
+		</h3>
+		<p>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper congue nisi, 
+		  vel pharetra quam blandit ut. In iaculis, lectus ullamcorper porttitor imperdiet.
+		</p>
+	  </div>
+	  <div class="col-md-4">
+	    <h3>
+		  Dish 3<br />
+		  <small>
+		    <em>$14.95</em>
+		  </small>
+		</h3>
+		<p>
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper congue nisi, 
+		  vel pharetra quam blandit ut. In iaculis, lectus ullamcorper porttitor imperdiet.
+		</p>
+	  </div>
+	  <br />
+	  <!-- Separation div for full menu link -->
+	  <div class="col-xs-12">
+	    <span class="btn" style="float:right">
+	      <a href="menu.html">Full Menu</a>
+	    </span>
+	  </div>
+	</div>
+	
+	<div class="bgimg1">
+	  <div class="caption">
+	    <span class="border">We Hope to See You Soon</span>
+	  </div>
+	</div>
+	
+	<!-- Page Footer -->
+    <div class="footer row" id="contact">
+	  <div class="col-sm-6">
+	    <a href="#home">Top of Page</a><br />
+		Follow us on social media<br />
+		<a href="#">Facebook</a><br />
+		<a href="#">Twitter</a>
+	  </div>
+	  <div class="col-sm-6">
+	    MyRestaurant<br />
+		123 Main St.<br />
+		Somewhere, State 99999<br />
+		(555) 555-1234<br />
+		myrestaurant@mysite.com
+	  </div>
+	</div>
+  </div>
+</body>
+</html>
